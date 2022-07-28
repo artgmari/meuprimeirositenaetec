@@ -30,7 +30,16 @@ h3{
     font-weight: bolder;
     font-size: 2em;
 }
-
+h4{text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2em;
+}
+h5{text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2em;
+}
 .img_corpo{
     width:40%;
 }
@@ -49,4 +58,45 @@ p{
    font-weight: bold;
    text-indent: 50px;
    text-align: justify;
+}
+p1{font-size: 1.5em; 
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    text-indent: 50px;
+    text-align: justify;
+    text-align: center;
+}
+footer{
+    background-color: rgba(255, 5, 5, 0.3);
+    padding-top: 0.6%;
+    padding-bottom: 2%;
+    font-size: 1.5em; 
+   
+   text-align: justify;
+}
+.botao{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    margin: auto; 
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+.botao p{
+    text-indent: 0;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.botao a:link, .botao a:visited{
+    color: #0080ff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botao:hover{
+    background-color: #4169E1;
+    text-align: center;
 }
