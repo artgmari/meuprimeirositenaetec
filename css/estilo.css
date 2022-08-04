@@ -40,6 +40,11 @@ h5{text-align: center;
     font-weight: bolder;
     font-size: 2em;
 }
+h6{ text-align: right;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1em;
+}
 .img_corpo{
     width:40%;
 }
@@ -69,8 +74,16 @@ p1{font-size: 1.5em;
 .coisinha{
     text-align: center;
 }
+.audio{
+    margin-right: -100%;
+    
+}
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+    background-color: rgb(221, 43, 67);
+  color:skyblue;
 footer{
-    background-color: rgba(255, 5, 5, 0.3);
+    background-color: rgb(221, 43, 67);
     padding-top: 0.6%;
     padding-bottom: 2%;
     font-size: 1.5em; 
