@@ -66,6 +66,9 @@ p1{font-size: 1.5em;
     text-align: justify;
     text-align: center;
 }
+.coisinha{
+    text-align: center;
+}
 footer{
     background-color: rgba(255, 5, 5, 0.3);
     padding-top: 0.6%;
@@ -75,15 +78,28 @@ footer{
    text-align: justify;
 }
 .botao{
-    width: 100px;
-    height: 40px;
-    background-color: rgb(255, 0, 0);
-    margin: auto; 
-    border-radius: 25px;
-    text-align: center;
-    
-}
-
+        background-color: #ff0707; /* Green */
+        border: none;
+        color: white;
+        padding: 12px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        
+        
+      }
+      .botao {
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+      }
+      
+      .botao {
+        margin: auto;
+        width: 8%;
+        border: 3px solid rgb(0, 0, 0);
+        padding: 10px;
+      }
+      .botao {border-radius: 8px;}
 .botao p{
     text-indent: 0;
     text-align: center;
@@ -91,12 +107,12 @@ footer{
 }
 
 .botao a:link, .botao a:visited{
-    color: #0080ff;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
 }
 
 .botao:hover{
-    background-color: #4169E1;
+    background-color: #ec3c3c;
     text-align: center;
 }
