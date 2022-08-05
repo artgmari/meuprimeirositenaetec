@@ -11,9 +11,21 @@ body {
     margin:auto;
  
 }
-menu{
+.menu {
+    scroll-behavior: smooth;
+  }
 
 }
+>.menu-trigger{
+    display: inline-block;
+    place-items:center;
+    padding:0.5em;
+    border: 1px solid #CCC;
+    border-radius: 0.3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    cursor:pointer
+}
+
 
 h1{
     text-align: center;
@@ -79,7 +91,11 @@ footer{ text-align: center;
     font-style: bolder;
     font-size: 1em;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
 
+}
+.instagram {
+    width: 36px;
 }
 .botao{
     background-color: rgb(202, 34, 34);/* Green */
@@ -110,6 +126,7 @@ footer{ text-align: center;
 .audio::-webkit-media-controls-panel {
     background-color: rgb(221, 43, 67);
   color:skyblue;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
 footer{
     background-color: rgb(221, 43, 67);
     padding-top: 0.6%;

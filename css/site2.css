@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.img_corpo{
+    width: 40%
+    text-align:center ;
+}
+.body {
+    background-image: url(https://c.tenor.com/VLao5JKHOEwAAAAC/chamber-valorant-valorant-chamber.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+footer{ text-align: center;
+    background-color:slategrey;
+    font-style: bolder;
+    font-size: 1em;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+}
