@@ -11,12 +11,10 @@ body {
     margin:auto;
  
 }
-.menu {
-    scroll-behavior: smooth;
-  }
-
-}
->.menu-trigger{
+html{
+        scroll-behavior: smooth;
+      }
+.menu-trigger{
     display: inline-block;
     place-items:center;
     padding:0.5em;
@@ -94,9 +92,7 @@ footer{ text-align: center;
     
 
 }
-.instagram {
-    width: 36px;
-}
+
 .botao{
     background-color: rgb(202, 34, 34);/* Green */
     border: none;
