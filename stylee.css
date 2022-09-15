@@ -29,6 +29,24 @@ html {
 .row{
     position: fixed;
 }
+a:link, a:visited {
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: Arial,sans-serif;
+  margin: 3px;
+  border: 1px solid #000000b9;
+background-color: rgba(0, 0, 0, 0);
+color: rgb(9, 255, 0);
+padding: 3px 5px;
+text-decoration: none;
+display: inline-block;
+}
+
+a:hover, a:active {
+background-color: rgb(36, 0, 65);
+}
 
 h1 {
     text-align: center;
@@ -109,10 +127,10 @@ p {
 }
 
 .botao {
-    background-color: rgb(202, 34, 34);
+    background-color: rgb(24, 0, 241);
     /* Green */
     border: none;
-    color: white;
+    color: pink;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -127,9 +145,9 @@ p {
 }
 
 .botao:hover {
-    background-color: #e27272d5;
+    background-color: #000000d5;
     /* Green */
-    color: white;
+    color: rgb(255, 0, 255);
 }
 
 .coisinha {
@@ -137,23 +155,16 @@ p {
 }
 
 .audio {
-    margin-right: -100%;
+    margin-right: 0%;
 
 }
-
-.audio::-webkit-media-controls-play-button,
-.audio::-webkit-media-controls-panel {
-    background-color: rgb(221, 43, 67);
-    color: skyblue;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
-}
-
 footer {
-    background-color: rgba(148, 0, 0, 0.699);
+    background-color: rgba(255, 255, 255, 0.699);
     padding-top: 0.6%;
     padding-bottom: 2%;
     font-size: 1.5em;
     text-align: justify;
+    text-shadow: #fff;
 }
 
 .sub-menu {
@@ -186,65 +197,5 @@ footer {
     display: table;
     clear: both;
   }
-  form {
-    box-sizing: border-box;
-    font-family: 'DancingScript-VariableFont_wght',cursive;
-  }
-  .form{
-    background-color: rgba(128,128,128, 0.5) ;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  input[type=text], input[type=tel], input[type=email], select, textarea {
-    width: 90%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    resize: vertical;
-    font-family: 'DancingScript-VariableFont_wght',cursive;    
-  }
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-    font-family: 'DancingScript-VariableFont_wght',cursive;    
-  }
-
-  input[type=submit] {
-    background-color:rgba(128,128,128, 0.5)  ;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-    font-family: 'DancingScript-VariableFont_wght',cursive;    
-  }
-
-  input[type=submit]:hover {
-    background-color: #dddada ;
-    font-family: 'DancingScript-VariableFont_wght',cursive;    
-  }
-
-  .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-  }
+ 
   
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  }
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-
-
